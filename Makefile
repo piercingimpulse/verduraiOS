@@ -1,7 +1,7 @@
 TARGET := iphone:clang:latest:7.0
 INSTALL_TARGET_PROCESSES = YouTube
 GO_EASY_ON_ME = 1
-
+FINALPACKAGE = 1 
 
 export ARCHS = armv7
 include $(THEOS)/makefiles/common.mk
