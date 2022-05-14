@@ -1,6 +1,7 @@
 # verduraiOS
 A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7-10 32bit for now)
 [VerduraiOS on Reddit](https://www.reddit.com/r/LegacyJailbreak/comments/uoxxyg/news_verduraios_a_petty_way_to_use_youtube/ "VerduraiOS on Reddit")
+
 [Watch Video](https://www.youtube.com/watch?v=mxyB9FGudBY)
 
 ## HOW TO USE IT
