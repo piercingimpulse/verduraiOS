@@ -1,0 +1,21 @@
+body {
+    background-color: transparent;
+    font-family: Roboto, Arial, 'Sans Serif', 'YT Sans';
+    text-transform: uppercase;
+}
+.divmenu {
+    font-size:medium;
+    border-bottom:red outset;
+}
+.divmenu:hover {
+    font-weight: bold;
+    border-bottom:white inset;
+    background-color: red;
+}
+.imgmenu {
+    vertical-align: middle;
+    scale: 50%
+}
+.divinside:hover  {
+    -webkit-filter: invert(100%);
+}

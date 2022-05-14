@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.js"></script>
+    <script src="js/API_KEY.js"></script>
+    <script src="js/search_videos.js"></script>
+  </head>
+
+  <body>
+     <body>
+       <div id = "container">
+           <header>
+               <h1>Verdura<span>Videos <small><sup>(by title)</sup></small></span></h1>
+               <a href="menu.html">Go back to menu</a>
+               <p>Search by title any public video on YouTube &#129367;</p>
+           </header>
+           <section>
+               <form id="search-form" name="search-form" onsubmit="return search()">
+               <div class="field-container">
+                   
+                   <input type="search" id="query" class="search-field" placeholder="Search Videos Here...">
+                   <input type="submit" id="submit-btn" name="submit-btn" value="">
+                   
+               </div>
+               </form>
+               
+               <ul id='results'></ul>
+               <div class="buttons"></div>
+              </section>    
+              <footer>
+                <p><a href="read_comments.html">Read Comments</a></p>
+                <p>Search Videos by: <a href="search_videos.html"><b>Title</b></a></p>
+                <p>Search Playlists by: <a href="search_playlists.html">Title</a> | <a href="search_playlists_channelID.html">ChannelID</a></p>
+                <p>Search Channels by: <a href="search_channels.html">Title</a> | <a href="specific_channel_name.html">Specific Channel Name</a></p>
+                  </footer>
+         </div>
+      </body>
+  </html>
