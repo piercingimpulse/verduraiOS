@@ -32,6 +32,7 @@ A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7
 - Unable to retrive private information (eg private videos, leave comments and like) as missing oAuth2 token
 - Unable to retrive total liked count on video
 - Unable to upload videos (this is is an issue with SLGoogleAuth on iOS).
+- Unable to read the Push Notification (if you turn them on you will get them, but can't open them for now :/)
 
 #### THANKS TO
 - Will Hutchinson Builds for the base javascript code I've implemented in this tweak. I would like to tag you, but I can't find your repo anymore :/
