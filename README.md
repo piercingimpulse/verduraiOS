@@ -1,5 +1,7 @@
 # verduraiOS
 A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7-10 32bit for now)
+[VerduraiOS on Reddit](https://www.reddit.com/r/LegacyJailbreak/comments/uoxxyg/news_verduraios_a_petty_way_to_use_youtube/ "VerduraiOS on Reddit")
+[Watch Video](https://www.youtube.com/watch?v=mxyB9FGudBY)
 
 ## HOW TO USE IT
 1. First compile the tweak or download the precompiled deb file from the Download section
@@ -28,3 +30,6 @@ A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7
 - Unable to retrive private information (eg private videos, leave comments and like) as missing oAuth2 token
 - Unable to retrive total liked count on video
 - Unable to upload videos (this is is an issue with SLGoogleAuth on iOS).
+
+#### THANKS TO
+- Will Hutchinson Builds for the base javascript code I've implemented in this tweak. I would like to tag you, but I can't find your repo anymore :/
