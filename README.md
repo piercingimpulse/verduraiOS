@@ -1,4 +1,4 @@
-# verduraios
+# verduraiOS
 A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7-10 32bit for now)
 
 ## HOW TO USE IT
