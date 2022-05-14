@@ -4,9 +4,11 @@ A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7
 ## HOW TO USE IT
 1. First compile the tweak or download the precompiled deb file from the Download section
 2. Obtain your Google Youtube API
-3. Download and unzip the addon.zip file from Download section
-4. Change API_KEY.js = YOUR_VALUE in all the.js file present in the js folder with your API Key
-5. Install the tweak. It is set to "On" by default in the Settings, so you should be able to use it straight away
+3. Download and unzip the web.zip file from Download section
+4. Change API_KEY.js = YOUR_VALUE in all the.js file present in the js folder with your API Key.
+5. Transfer all the file inside the folder web in the Youtube.app folder (where the info.plist is)
+6. Spoof the info.plist file with the latest version of Youtube
+7. Install the tweak. It is set to "On" by default in the Settings, so you should be able to use it straight away
 
 ### AVAILABLE OPTIONS
 - View Subscriptions
