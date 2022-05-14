@@ -241,20 +241,19 @@ function getOutput(items){
    var channelId = items.snippet.channelId; 
    var title = items.snippet.title; 
    var thumb = items.snippet.thumbnails.high.url;
-   var channelTitle = items.snippet.channelTitle;
    var videoDate = items.snippet.publishedAt;
    
     //Build Output String
     
     var outPut = '<li>' +
         '<div class = "list-left">' +
-        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/c/'+channelId+'"><img src="'+thumb+'"></a>' +
+        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/channel/'+channelId+'"><img src="'+thumb+'"></a>' +
         '</div>' +
         '<div class ="list-right">' +
-        '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/c/'+channelId+'">'+title+'</a></h3>' +
-        '<small> By <span class="ctitle">'+channelTitle+'</span> on '+videoDate+'</small>' +
+        '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/channel/'+channelId+'">'+title+'</a></h3>' +
+        '<small><b>Since:</b> '+videoDate+'</small>' +
         '<p>'+description+'</p>'+
-        '<small> <span class="ctitle">Channel ID:</span><input onClick="this.setSelectionRange(0, this.value.length)" type="text" id="'+channelId+'" value="'+channelId+'"><br></small>' +
+        '<small> <span class="ctitle">Channel ID: </span><input onClick="this.setSelectionRange(0, this.value.length)" type="text" id="'+channelId+'" value="'+channelId+'"><br></small>' +
         '</div>' + 
         '</li>' +
         '<div class ="clearfix"></div>'

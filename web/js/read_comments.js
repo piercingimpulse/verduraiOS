@@ -233,6 +233,7 @@ function prevPage(){
 function getOutput(items){
          
    var id = items.id;
+   var channelId = items.snippet.topLevelComment.snippet.authorChannelId.value;
    var description = items.snippet.topLevelComment.snippet.textDisplay;
    var thumb = items.snippet.topLevelComment.snippet.authorProfileImageUrl;
    var authorName = items.snippet.topLevelComment.snippet.authorDisplayName;
@@ -246,7 +247,7 @@ function getOutput(items){
         '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/playlist?list='+id+'"><img src="'+thumb+'"></a>' +
         '</div>' +
         '<div class ="list-right">' +
-        '<small> By <span class="ctitle">'+authorName+'</span> on '+videoDate+'</small>' +
+        '<small> By <a href="youtube://www.youtube.com/channel/'+channelId+'"><span class="ctitle">'+authorName+'</span></a> on '+videoDate+'</small>' +
         '<p>'+description+'</p>' +
         '</div>' +
         '</li>' +

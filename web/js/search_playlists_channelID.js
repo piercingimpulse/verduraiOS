@@ -237,6 +237,7 @@ function getOutput(items){
    var title = items.snippet.title; 
    var thumb = items.snippet.thumbnails.high.url;
    var channelTitle = items.snippet.channelTitle;
+   var channelID = items.snippet.channelId;
    var videoDate = items.snippet.publishedAt;
    
     //Build Output String
@@ -247,7 +248,7 @@ function getOutput(items){
         '</div>' +
         '<div class ="list-right">' +
         '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/playlist?list='+id+'">'+title+'</a></h3>' +
-        '<small> By <span class="ctitle">'+channelTitle+'</span> on '+videoDate+'</small>' +
+        '<small> By <span class="ctitle"><a href="youtube://www.youtube.com/channel/'+channelID+'">'+channelTitle+'</a></span> on '+videoDate+'</small>' +
         '<p>'+description+'</p>' +
         '</div>' +
         '</li>' +

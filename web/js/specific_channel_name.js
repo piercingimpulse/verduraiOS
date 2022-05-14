@@ -255,7 +255,7 @@ function getOutput(items){
         '<b>Channel status:</b> '+privacyStatus+'<br>' +
         '</div>' +
         '<div class ="list-right">' +
-        '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/c/'+channelId+'">'+title+'</a></h3>' +
+        '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/channel/'+channelId+'">'+title+'</a></h3>' +
         '<b>Views:</b> '+viewCount+' | <b>Subscirbers:</b> '+subscriberCount+'<br>' +
         '<b>Joined on:</b> '+channelDate+'<br>' +
         '<p>'+description+'</p>'+

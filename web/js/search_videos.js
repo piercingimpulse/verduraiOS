@@ -253,7 +253,7 @@ function getOutput(items){
         '</div>' +
         '<div class ="list-right">' +
         '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/embed/'+videoId+'">'+title+'</a></h3>' +
-        '<small> By <span class="ctitle">'+channelTitle+'</span> on '+videoDate+'</small>' +
+        '<small> By <a href="youtube://www.youtube.com/channel/'+channelId+'"><span class="ctitle">'+channelTitle+'</span></a> on '+videoDate+'</small>' +
         '<p>'+description+'</p>'+
         '<small> <span class="ctitle">Channel ID:</span><input onClick="this.setSelectionRange(0, this.value.length)" type="text" id="'+channelId+'" value="'+channelId+'"><br>' +
         '<span class="ctitle">Video ID:</span><input onClick="this.setSelectionRange(0, this.value.length)" type="text" id="'+videoId+'" value="'+videoId+'"></small>' +
