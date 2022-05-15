@@ -38,10 +38,10 @@ HBPreferences *preferences;
 %end
 
 %ctor {
-    preferences = [[HBPreferences alloc] initWithIdentifier:@"me.aleksilassila.youtuberebornpreferences"];
+    preferences = [[HBPreferences alloc] initWithIdentifier:@"com.piercingimpulse.verduraiospreferences"];
     
     [preferences registerDefaults:@{
-        @"wantsSearch": @NO,
+        @"wantsSearch": @YES,
 
     }];
 
