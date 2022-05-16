@@ -1,21 +1,29 @@
 body {
-    background-color: transparent;
-    font-family: Roboto, Arial, 'Sans Serif', 'YT Sans';
-    text-transform: uppercase;
+	background-color: transparent;
+	font-family: Roboto, Arial, 'Sans Serif', 'YT Sans';
+	text-transform: uppercase;
+	color: black;
 }
 .divmenu {
-    font-size:medium;
-    border-bottom:red outset;
+	border-radius: 25px;
+  	background: #FAFAFA;
+  	padding: 20px;
+  	height: 50px;
+    	font-size:medium;
+    	box-shadow: 0px 0px 0px 8px #CF2927;
 }
 .divmenu:hover {
-    font-weight: bold;
-    border-bottom:white inset;
-    background-color: red;
+	background: #C71B11;
+    	font-weight: bold;
 }
 .imgmenu {
-    vertical-align: middle;
-    scale: 50%
+	font-weight: bold;
+	color: #345666;
+	background: #2C3E50 inset;
+	vertical-align: middle;
 }
 .divinside:hover  {
-    -webkit-filter: invert(100%);
+	background: #C71B11;
+	font-weight: bold;
+
 }
