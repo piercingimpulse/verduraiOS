@@ -22,39 +22,39 @@ A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7
 3. Transfer all files present inside the weblight folder in Youtube.app folder - do not copy the folder weblight as directory! All HTML files and folders need to be in the same where the info.plist of Youtube is located - aka the MAIN FOLDER.
 4. Spoof the info.plist file with the latest version of Youtube
 5. Install the tweak. It is set to "On" by default in the Settings, so you should be able to use it straight away.
-6. Use [Verdurify](<#VERDURIFY> "Verdurify") system to open Youtube pages.
+6. Use Verdurify system to open Youtube pages.
 
+## VERDURIFY
+Your daily greens with Javascript: paste any video id, playlist id or www.youtube.com link in here to have a direct parsing to the Youtube App. Very useful in case you don't want to use API Key. The get the link, you can use the search tab and look for video on the Youtube webview page. Once you find the video, just click share and copy the url. Past the URL in the text field present in the right menu and search. **REMEMBER TO REMOVE HTTP:// - HTTPS:// from the url!**
 
 ### AVAILABLE OPTIONS
 ####HOME
 Using youtube:/// scheme, it shows the homepage. It seems the only version of YouTube with the homepage visible at the moment.
 
-####SEARCH
+#### SEARCH
 Need API Key. Use internal html file and Javascript to search public videos by title, to then using youtube:/// scheme to open the video with internal YouTube video player. This will not break in future unless changes in Youtube API policy.
 
-####HISTORY
+#### HISTORY
 Using youtube:/// scheme, it shows the subscription feed page. It seems the only option available for the videos is "Save to Watch Later".
 
-####WATCH LATER
+#### WATCH LATER
 Using youtube:/// scheme, it shows the watch later playlist. The picture for the album is obviusly unavailable, but the playlist it is playable!
 
-####LIKED VIDEOS
+#### LIKED VIDEOS
 Using youtube:/// scheme, it shows the liked videos playlist. The picture for the album is obviusly unavailable, but the playlist it is playable!
 
-####GUIDE BUILDER
+#### GUIDE BUILDER
 Using youtube:/// scheme, it shows the feed page.
 
-####SEARCH CHANNELS
+#### SEARCH CHANNELS
 Need API Key. Use internal html file and Javascript to search public channels by title, or by ID to then using youtube:/// scheme to open either Upload playlists (when available) or the Channel page. This will work for a long time, unless changes in Youtube API policy. _NB: The rendering of Channels natively is very buggy_
 
-####SEARCH PLAYLISTS
+#### SEARCH PLAYLISTS
 Need API Key. Use internal html file and Javascript to search public playlists by title, or by channel ID to then using youtube:/// scheme to open the the playlists (when available). This will work for a long time, unless changes in Youtube API policy. 
 
-####READ COMMENTS
+#### READ COMMENTS
 Need API Key. Use internal html file and Javascript to search public comments using the video id, to then show the comments on the side view. This will work for a long time, unless changes in Youtube API policy. 
 
-#VERDURIFY
-Your daily greens with Javascript: paste any video id, playlist id or www.youtube.com link in here to have a direct parsing to the Youtube App. Very useful in case you don't want to use API Key (see Method without API Key) and just rely on the Search Hack. REMEMBER TO REMOVE HTTP:// - HTTPS:// from the url!
 
 ### TRICKS AND SHORTCUT
 - If you want extra tab, you can use the search button to generate more pages and therefore you can have more tabs!
