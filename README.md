@@ -28,7 +28,7 @@ A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7
 Your daily greens with Javascript: paste any video id, playlist id or www.youtube.com link in here to have a direct parsing to the Youtube App. Very useful in case you don't want to use API Key. The get the link, you can use the search tab and look for video on the Youtube webview page. Once you find the video, just click share and copy the url. Past the URL in the text field present in the right menu and search. **REMEMBER TO REMOVE HTTP:// - HTTPS:// from the url!**
 
 ### AVAILABLE OPTIONS
-####HOME
+#### HOME
 Using youtube:/// scheme, it shows the homepage. It seems the only version of YouTube with the homepage visible at the moment.
 
 #### SEARCH
