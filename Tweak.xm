@@ -15,10 +15,11 @@ HBPreferences *preferences;
  - (void)viewDidLoad {   
      
  UIWebView *webView = [[[UIWebView alloc] initWithFrame:[[UIScreen mainScreen] bounds]] self];
-   NSURL *htmlURL = [[NSBundle mainBundle] URLForResource:@"searcherror" withExtension:@"html"]; 
+ //  NSURL *htmlURL = [[NSBundle mainBundle] URLForResource:@"youVerdura" withExtension:@"html"]; 
+ NSURL *youTubeURL = [NSURL URLWithString:@"https://m.youtube.com/channel/UCgaKqdG-0l-RqC_tLipiHPw"];
    
 [self.view addSubview:webView];
-[webView loadRequest:[NSURLRequest requestWithURL:htmlURL]];
+[webView loadRequest:[NSURLRequest requestWithURL:youTubeURL]];
  }
 %end
 
