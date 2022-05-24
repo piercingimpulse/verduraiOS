@@ -22,7 +22,7 @@ A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7
 3. Transfer all files present inside the weblight folder in Youtube.app folder - do not copy the folder weblight as directory! All HTML files and folders need to be in the same where the info.plist of Youtube is located - aka the MAIN FOLDER.
 4. Spoof the info.plist file with the latest version of Youtube
 5. Install the tweak. It is set to "On" by default in the Settings, so you should be able to use it straight away.
-6. Use [Verdurify](<#VERDURIFY> "Verdurify") system to open Youtube pages.
+6. Use (<#VERDURIFY> "Verdurify") system to open Youtube pages.
 
 
 ### AVAILABLE OPTIONS
@@ -53,7 +53,7 @@ Need API Key. Use internal html file and Javascript to search public playlists b
 ####READ COMMENTS
 Need API Key. Use internal html file and Javascript to search public comments using the video id, to then show the comments on the side view. This will work for a long time, unless changes in Youtube API policy. 
 
-####VERDURIFY
+[Verdurify]####VERDURIFY
 Your daily greens with Javascript: paste any video id, playlist id or www.youtube.com link in here to have a direct parsing to the Youtube App. Very useful in case you don't want to use API Key (see Method without API Key) and just rely on the Search Hack. REMEMBER TO REMOVE HTTP:// - HTTPS:// from the url!
 
 ### TRICKS AND SHORTCUT
