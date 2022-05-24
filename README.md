@@ -22,7 +22,7 @@ A stubborn and a bit fidgety solution to use YouTube 10.11.11546 on older iOS (7
 3. Transfer all files present inside the weblight folder in Youtube.app folder - do not copy the folder weblight as directory! All HTML files and folders need to be in the same where the info.plist of Youtube is located - aka the MAIN FOLDER.
 4. Spoof the info.plist file with the latest version of Youtube
 5. Install the tweak. It is set to "On" by default in the Settings, so you should be able to use it straight away.
-6. Use ([Verdurify]<#VERDURIFY> "Verdurify") system to open Youtube pages.
+6. Use [Verdurify](<#VERDURIFY> "Verdurify") system to open Youtube pages.
 
 
 ### AVAILABLE OPTIONS
