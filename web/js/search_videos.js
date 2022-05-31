@@ -248,11 +248,11 @@ function getOutput(items){
     //Build Output String
     
     var outPut = '<li>' +
-        '<div class = "list-left">' +
-        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/embed/'+videoId+'"><img src="'+thumb+'"></a>' +
+        '<div class = "list-center">' +
+        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/embed/'+videoId+'"><img src="'+thumb+'" width = 315, height = 250></a>' +
         '</div>' +
-        '<div class ="list-right">' +
-        '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/embed/'+videoId+'">'+title+'</a></h3>' +
+        '<div class ="list-center">' +
+        '<h3 length=30><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/embed/'+videoId+'">'+title+'</a></h3> ' +
         '<small> By <a href="youtube://www.youtube.com/channel/'+channelId+'"><span class="ctitle">'+channelTitle+'</span></a> on '+videoDate+'</small>' +
         '<p>'+description+'</p>'+
         '<small> <span class="ctitle">Channel ID:</span><input onClick="this.setSelectionRange(0, this.value.length)" type="text" id="'+channelId+'" value="'+channelId+'"><br>' +

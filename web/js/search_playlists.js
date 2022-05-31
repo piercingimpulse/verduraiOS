@@ -248,10 +248,10 @@ function getOutput(items){
     //Build Output String
     
     var outPut = '<li>' +
-        '<div class = "list-left">' +
-        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/playlist?list='+playlistId+'"><img src="'+thumb+'"></a>' +
+        '<div class = "list-center">' +
+        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/playlist?list='+playlistId+'"><img src="'+thumb+'" width=315 height=250></a>' +
         '</div>' +
-        '<div class ="list-right">' +
+        '<div class ="list-center">' +
         '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/playlist?list='+playlistId+'">'+title+'</a></h3>' +
         '<small> By <a href="youtube://www.youtube.com/channel/'+channelId+'"><span class="ctitle">'+channelTitle+'</span></a> on '+playlistDate+'</small>' +
         '<p>'+description+'</p>'+
