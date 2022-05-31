@@ -247,7 +247,7 @@ function getOutput(items){
     
     var outPut = '<li>' +
         '<div class = "list-left">' +
-        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/channel/'+channelId+'"><img src="'+thumb+'"></a>' +
+        '<a data-fancybox data-type="iframe" href="youtube://www.youtube.com/channel/'+channelId+'"><img src="'+thumb+'" width=100 height=100></a>' +
         '</div>' +
         '<div class ="list-right">' +
         '<h3><a data-fancybox data-type="iframe" href="youtube://www.youtube.com/channel/'+channelId+'">'+title+'</a></h3>' +
